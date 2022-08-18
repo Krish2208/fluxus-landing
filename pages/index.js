@@ -14,15 +14,15 @@ export default function Home() {
       </Head>
 
       <div className={styles.topbg}>
-        <div className={styles.heading}>FLUXUS'23</div>
+        <div className={styles.heading}>FLUXUS&apos;23</div>
         <div className={styles.text}>
-          "Now is the winter of our discontent Made glorious summer by this sun
+          &quot;Now is the winter of our discontent Made glorious summer by this sun
           <br />
-          of York; An"
+          of York; An&quot;
         </div>
         <div className={styles.socialicons}>
-          <FontAwesomeIcon icon={faLinkedinIn} className={styles.socialicon} />
-          <FontAwesomeIcon icon={faInstagram} className={styles.socialicon} />
+          <a href="https://www.linkedin.com/company/fluxus---iit-indore/mycompany/" target={"_blank"} rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedinIn} className={styles.socialicon} /></a>
+          <a href="https://www.instagram.com/fluxus_iit_indore/?hl=en" target={"_blank"} rel="noopener noreferrer"><FontAwesomeIcon icon={faInstagram} className={styles.socialicon} /></a>
         </div>
       </div>
       <div className={styles.bottombg}>
@@ -30,11 +30,10 @@ export default function Home() {
         <div className={styles.comingsoon}>COMING SOON</div>
         <div className={styles.text2}>
           Now is the winter of our discontent Made glorious summer by this sun
-          of York; And all the clouds that lour'd upon our house In the Now is
+          of York; And all the clouds that lour&apos;d upon our house In the Now is
           the winter of our discontent Made glorious summer by this sun of York;
-          And all the clouds that lour'd upon our house In the{" "}
+          And all the clouds that lour&apos;d upon our house In the
         </div>
-        x
         <button className={styles.button}>
           Past Glimpses
           <FontAwesomeIcon icon={faPlayCircle} className={styles.playicon} />
