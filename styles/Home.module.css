@@ -127,3 +127,118 @@
     filter: invert(1);
   }
 }
+
+.topbg {
+  background-image: url("/welcome.png") !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-width: 100vw;
+  min-height: 100vh;
+  vertical-align: middle;
+  position: relative;
+}
+
+.line {
+  background-color: rgba(221, 103, 37, 0.83);
+  min-height: 4.2vh;
+  padding: 0;
+  border: 0px;
+}
+
+.bottombg {
+  background-image: url("/welcome2.png") !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-width: 100vw;
+  min-height: 100vh;
+  position: relative;
+}
+
+.heading {
+  text-align: center;
+  justify-content: center;
+  position: absolute;
+  font-size: 190px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "TradeWinds-Regular";
+  font-weight: 400;
+  line-height: 218px;
+  color: #fdfdfd;
+  mix-blend-mode: normal;
+  text-shadow: 15px 15px 40px #bb5a23;
+}
+
+.text {
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 400 !important;
+  font-size: 24px;
+  font-family: "AveriaSansLibre-Regular";
+}
+
+.comingsoon {
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  font-weight: 400 !important;
+  font-size: 96px;
+  font-family: "Antonio-Regular";
+}
+
+.text2 {
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  font-weight: 400 !important;
+  font-size: 24px;
+  font-family: "AveriaSansLibre-Regular";
+}
+
+.button {
+  padding: 10px 30px 10px 40px;
+  background-color: transparent;
+  color: #fff;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 28px;
+  font-family: "AveriaSansLibre-Regular";
+  border: 3px solid #dd6725;
+  box-shadow: 0px 0px 11px 2px #e05100;
+  border-radius: 15px;
+}
+
+.playicon {
+  padding-left: 10px;
+}
+
+.socialicons{
+  position: absolute;
+  top: 85%;
+  left: 97%;
+  transform: translate(-50%, -50%);
+  margin-right: 5px;
+  padding-right: 20px;
+}
+
+.socialicon{
+  font-size: 48px;
+  padding: 7px;
+  filter: drop-shadow(4px 4px 10px rgba(221, 103, 37, 0.5));
+}
