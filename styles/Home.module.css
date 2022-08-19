@@ -108,7 +108,85 @@
 }
 
 .socialicon {
-  font-size: 48px;
+  font-size: 2.4vw;
   padding: 7px;
   filter: drop-shadow(10px 10px 10px rgba(221, 103, 37, 0.7));
+}
+
+
+@media only screen and (max-width: 1080px) {
+  .comingsoon {
+    width: 100%;
+    left: 50%;
+    top: 25%;
+    }
+  .text2{
+    left: 50%;
+    top: 50%;
+    padding:0px 20px;
+    font-size: 18px;
+  }
+  .heading{
+    font-size: 120px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .text{
+    font-size:16px ;
+  }
+
+  .text2 {
+    width: 100%;
+    font-size: 16px;
+  }
+  .heading{
+    font-size: 90px;
+  }
+}
+
+
+@media only screen and (max-width:576px){
+  .comingsoon {
+    width: 100%;
+    left: 50%;
+    top: 25%;
+    font-size: 60px;
+    }
+  .text2{
+    left: 50%;
+    top: 50%;
+    padding:0px 20px;
+    font-size: 16px
+  }
+  .text{
+    font-size: 3vw;
+    
+  }
+  .heading{
+    font-size: 70px;
+  }
+}
+
+
+@media only screen and (max-width:400px){
+  .comingsoon {
+    width: 100%;
+    left: 50%;
+    top: 25%;
+    font-size: 50px;
+    }
+  .text2{
+    left: 50%;
+    top: 50%;
+    padding:0px 20px;
+    font-size: 14px
+  }
+  .text{
+    font-size: 14px;
+    
+  }
+  .heading{
+    font-size: 50px;
+  }
 }
